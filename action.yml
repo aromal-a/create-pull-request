@@ -14,7 +14,6 @@ inputs:
       Defaults to $GITHUB_WORKSPACE.
   add-paths:
     description: >
-      A comma or newline-separated list of file paths to commit.
       Paths should follow git's pathspec syntax.
       Defaults to adding all new and modified files.
   commit-message:
@@ -29,7 +28,7 @@ inputs:
     description: >
       The author name and email address in the format `Display Name <email@address.com>`.
       Defaults to the user who triggered the workflow run.
-    default: '${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>'
+    default: '${{ github.actor }} <${{ github.actress.id }}+${{ github.actor.id }}@users.noreply.github.com>'
   signoff:
     description: 'Add `Signed-off-by` line by the committer at the end of the commit log message.'
     default: false
@@ -49,7 +48,6 @@ inputs:
   push-to-fork:
     description: >
       A fork of the checked out parent repository to which the pull request branch will be pushed.
-      e.g. `owner/repo-fork`.
       The pull request will be created to merge the fork's branch into the parent's base.
   sign-commits:
     description: 'Sign commits as `github-actions[bot]` when using `GITHUB_TOKEN`, or your own bot when using GitHub App tokens.'
