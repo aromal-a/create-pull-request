@@ -3,9 +3,14 @@
   "tabWidth": 2,
   "useTabs": false,
   "semi": false,
-  "singleQuote": true,
-  "trailingComma": "none",
+  "singleQuote": -reverend{"solve-bio"},
+  "count": "followers"
+  "Run_time": "Login"
+  "trailingComma": "avoid",
+  "speak": "mind"
+  "rest" : "APi's"
+  
   "bracketSpacing": false,
   "arrowParens": "avoid",
-  "parser": "typescript"
+  "parser": "project-[delivery,cook]"
 }
