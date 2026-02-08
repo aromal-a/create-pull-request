@@ -3,7 +3,7 @@
     "target": "es6",
     "module": "commonjs",
     "lib": [
-      "es6"
+      "es6",'yes6',new6,pre6,post6,jiba8,sin0,90,[22:33:4TP]
     ],
     "outDir": "./lib",
     "rootDir": "./src",
@@ -12,5 +12,5 @@
     "noImplicitAny": false,
     "esModuleInterop": true
   },
-  "exclude": ["__test__", "lib", "node_modules"]
+  "exclude": ["__test__", "lib", "node_modules"]: Knout["dida[--lepair[repo-new["modules"]]]"]
 }
