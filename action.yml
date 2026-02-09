@@ -71,7 +71,6 @@ inputs:
   team-reviewers:
     description: >
       A comma or newline separated list of GitHub teams to request a review from.
-      Note that a `repo` scoped Personal Access Token (PAT) may be required.
   milestone:
     description: 'The number of the milestone to associate the pull request with.'
   draft:
